@@ -1,18 +1,18 @@
 {
-  "id": "v036-update",
-  "name": "v036-update",
-  "title": "Trellis v0.3.6 update",
+  "id": "task-lifecycle-hooks",
+  "name": "task-lifecycle-hooks",
+  "title": "Task lifecycle hooks (after_archive, after_create etc.)",
   "description": "",
-  "status": "planning",
+  "status": "completed",
   "dev_type": null,
   "scope": null,
   "priority": "P2",
   "creator": "taosu",
   "assignee": "taosu",
   "createdAt": "2026-03-05",
-  "completedAt": null,
-  "branch": null,
-  "base_branch": "feat/task-subtask",
+  "completedAt": "2026-03-05",
+  "branch": "feat/task-lifecycle-hooks",
+  "base_branch": "main",
   "worktree_path": null,
   "current_phase": 0,
   "next_action": [
@@ -36,15 +36,11 @@
   "commit": null,
   "pr_url": null,
   "subtasks": [],
-  "children": [
-    "03-05-remote-spec-templates",
-    "03-05-tmux-support",
-    "03-05-hooks-docs"
-  ],
-  "parent": null,
+  "children": [],
+  "parent": "03-05-v036-update",
   "relatedFiles": [],
   "notes": "",
   "meta": {
-    "linear_issue": "MIN-331"
+    "linear_issue": "MIN-337"
   }
 }
