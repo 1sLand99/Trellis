@@ -1,7 +1,7 @@
 {
-  "id": "session-identity-propagation",
-  "name": "session-identity-propagation",
-  "title": "Investigate session identity propagation gaps (CodeBuddy, OMP #517)",
+  "id": "shell-ticket-bridge",
+  "name": "shell-ticket-bridge",
+  "title": "Generalize the shell-ticket session bridge",
   "description": "",
   "status": "in_progress",
   "dev_type": null,
@@ -18,13 +18,8 @@
   "commit": null,
   "pr_url": null,
   "subtasks": [],
-  "children": [
-    "08-05-opencode-shell-env",
-    "08-05-session-identity-hardening",
-    "08-05-purge-fake-env-names",
-    "08-05-shell-ticket-bridge"
-  ],
-  "parent": null,
+  "children": [],
+  "parent": "08-05-session-identity-propagation",
   "relatedFiles": [],
   "notes": "",
   "meta": {}
